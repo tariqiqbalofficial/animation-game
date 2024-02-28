@@ -27,7 +27,7 @@ def main():
     tab = st.sidebar.radio("", ["Home", "About us", "Contact us"])
 
     if tab == "Home":
-        st.image("https://images.app.goo.gl/s7FbDervZkpWYfSM7", use_column_width=True)
+        st.write("Welcome to Bano Qabil 2.0")
     elif tab == "About us":
         st.title("About Us")
         st.markdown("Team Name: Pythonic Innovators\n\nTeam Members:\n\nTeam Leader: Syed Muhammad Shujaat Ali\nMember: Abdul Rahman\nMember: Anus Khan\n\nProject Description:\nThe final project submit in Bano Qabil 2.0\nBy Python coding robust puzzle game using Python.")
